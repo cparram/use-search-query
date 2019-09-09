@@ -1,0 +1,48 @@
+{
+  "name": "use-search-query",
+  "version": "0.1.0",
+  "description": "Hook to control search query changes",
+  "main": "lib",
+  "scripts": {
+    "build": "babel src -d lib --no-comments",
+    "size": "size-limit",
+    "lint": "./node_modules/.bin/eslint src/**/*.js src/*.js",
+    "docs": "./node_modules/.bin/jsdoc -c jsdoc.conf.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cparram/use-search-query.git"
+  },
+  "keywords": [
+    "reactjs",
+    "hooks"
+  ],
+  "author": "César Parra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cparram/use-search-query/issues"
+  },
+  "homepage": "https://github.com/cparram/use-search-query#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "better-docs": "^1.1.6",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsdoc": "^4.8.4",
+    "jsdoc": "^3.6.3",
+    "size-limit": "^0.21.1"
+  },
+  "peerDependencies": {
+    "react": "^16.8.3",
+    "use-react-router": "^1.0.7",
+    "react-router-dom": "^5.0.1",
+    "query-string": "^5.1.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "core-js": "^3.0.1"
+  }
+}
