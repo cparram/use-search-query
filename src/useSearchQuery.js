@@ -9,8 +9,8 @@ import queryString from 'query-string';
  * @returns {Array} The Hook values.
  */
 function useSearchQuery() {
-  let history = useHistory();
-  let location = useLocation();
+  const history = useHistory();
+  const location = useLocation();
   const currentQuery = queryString.parse(location.search, {
     arrayFormat: 'index',
   });
