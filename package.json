@@ -32,8 +32,7 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsdoc": "^4.8.4",
-    "jsdoc": "^3.6.3",
-    "size-limit": "^0.21.1"
+    "jsdoc": "^3.6.3"
   },
   "peerDependencies": {
     "react": "^16.8.3",
