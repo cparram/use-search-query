@@ -1,5 +1,5 @@
 import { useCallback } from 'react';
-import useReactRouter from 'use-react-router';
+import { useHistory, useLocation } from "react-router-dom";
 import queryString from 'query-string';
 
 /**
@@ -9,7 +9,8 @@ import queryString from 'query-string';
  * @returns {Array} The Hook values.
  */
 function useSearchQuery() {
-  const { history, location } = useReactRouter();
+  let history = useHistory();
+  let location = useLocation();
   const currentQuery = queryString.parse(location.search, {
     arrayFormat: 'index',
   });
