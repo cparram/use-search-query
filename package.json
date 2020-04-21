@@ -1,6 +1,6 @@
 {
   "name": "@cparram/use-search-query",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Hook to control search query changes",
   "main": "lib",
   "scripts": {
