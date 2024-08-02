@@ -1,2 +1,1 @@
-# use-search-query [![Build Status](https://travis-ci.com/cparram/use-search-query.svg?branch=master)](https://travis-ci.com/cparram/use-search-query)
-Hook to control search query changes
+IyB1c2Utc2VhcmNoLXF1ZXJ5IFshW0J1aWxkIFN0YXR1c10oaHR0cHM6Ly90cmF2aXMtY2kuY29tL2NwYXJyYW0vdXNlLXNlYXJjaC1xdWVyeS5zdmc/YnJhbmNoPW1hc3RlcildKGh0dHBzOi8vdHJhdmlzLWNpLmNvbS9jcGFycmFtL3VzZS1zZWFyY2gtcXVlcnkpCkhvb2sgdG8gY29udHJvbCBzZWFyY2ggcXVlcnkgY2hhbmdlcwoKIyMgSW5zdGFsbGF0aW9uCgpUbyBpbnN0YWxsIHRoZSBkZXBlbmRlbmNpZXMsIHJ1biB0aGUgZm9sbG93aW5nIGNvbW1hbmQ6CgpgYGAKbnBtIGluc3RhbGwKYGBgCgo=
