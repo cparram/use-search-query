@@ -1,1 +1,33 @@
-IyB1c2Utc2VhcmNoLXF1ZXJ5IFshW0J1aWxkIFN0YXR1c10oaHR0cHM6Ly90cmF2aXMtY2kuY29tL2NwYXJyYW0vdXNlLXNlYXJjaC1xdWVyeS5zdmc/YnJhbmNoPW1hc3RlcildKGh0dHBzOi8vdHJhdmlzLWNpLmNvbS9jcGFycmFtL3VzZS1zZWFyY2gtcXVlcnkpCkhvb2sgdG8gY29udHJvbCBzZWFyY2ggcXVlcnkgY2hhbmdlcwoKIyMgSW5zdGFsbGF0aW9uCgpUbyBpbnN0YWxsIHRoaXMgcGFja2FnZSBpbiB5b3VyIFJlYWN0IHByb2plY3QsIHJ1biB0aGUgZm9sbG93aW5nIGNvbW1hbmQ6CgpgYGAKbnBtIGluc3RhbGwgdXNlLXNlYXJjaC1xdWVyeQpgYGAKCiMjIFVzYWdlCgpBZnRlciBpbnN0YWxsYXRpb24sIHlvdSBjYW4gdXNlIHRoZSBgdXNlU2VhcmNoUXVlcnlgIGhvb2sgaW4geW91ciBjb21wb25lbnRzIHRvIG1hbmFnZSBhbmQgY29udHJvbCBzZWFyY2ggcXVlcnkgY2hhbmdlcy4gSGVyZSBpcyBhbiBleGFtcGxlOgoKYGBgamF2YXNjcmlwdAppbXBvcnQgdXNlU2VhcmNoUXVlcnkgZnJvbSAndXNlLXNlYXJjaC1xdWVyeSc7CgpmdW5jdGlvbiBTZWFyY2hDb21wb25lbnQoKSB7CiAgY29uc3QgW3F1ZXJ5LCBzZXRRdWVyeV0gPSB1c2VTZWFyY2hRdWVyeSgpOwoKICByZXR1cm4gKAogICAgPGlucHV0CiAgICAgIHR5cGU9InRleHQiCiAgICAgIHZhbHVlPXtxdWVyeX0KICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRRdWVyeShlLnRhcmdldC52YWx1ZSl9CiAgICAgIHBsYWNlaG9sZGVyPSJTZWFyY2guLi4iCiAgICAvPgogICk7Cn0KYGBgCgpUaGlzIHdpbGwgYWxsb3cgeW91IHRvIHN5bmNocm9uaXplIHRoZSBzZWFyY2ggcXVlcnkgd2l0aCB0aGUgY29tcG9uZW50IHN0YXRlIHNlYW1sZXNzbHkuCg==
+# use-search-query [![Build Status](https://travis-ci.com/cparram/use-search-query.svg?branch=master)](https://travis-ci.com/cparram/use-search-query)
+Hook to control search query changes
+
+## Installation
+
+To install this package in your React project, run the following command:
+
+```
+npm install use-search-query
+```
+
+## Usage
+
+After installation, you can use the `useSearchQuery` hook in your components to manage and control search query changes. Here is an example:
+
+```javascript
+import useSearchQuery from 'use-search-query';
+
+function SearchComponent() {
+  const [query, setQuery] = useSearchQuery();
+
+  return (
+    <input
+      type="text"
+      value={query}
+      onChange={(e) => setQuery(e.target.value)}
+      placeholder="Search..."
+    />
+  );
+}
+```
+
+This will allow you to synchronize the search query with the component state seamlessly.
