@@ -2,12 +2,13 @@
   "name": "@cparram/use-search-query",
   "version": "1.1.0",
   "description": "Hook to control search query changes",
-  "main": "lib",
+  "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib --no-comments",
     "size": "size-limit",
-    "lint": "./node_modules/.bin/eslint src/**/*.js src/*.js",
-    "docs": "./node_modules/.bin/jsdoc -c jsdoc.conf.json"
+    "lint": "eslint src/**/*.js",
+    "docs": "jsdoc -c jsdoc.conf.json",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -27,13 +28,12 @@
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
-    "@size-limit/preset-small-lib": "^4.4.5",
     "better-docs": "^1.1.6",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsdoc": "^4.8.4",
     "jsdoc": "^3.6.3",
+    "jest": "^29.0.0",
     "size-limit": "^4.4.5"
   },
   "peerDependencies": {
